@@ -1,0 +1,87 @@
+# .NET Core
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Local development settings
+appsettings.Development.json
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.pdb
+*.min.*
+*.cache
+
+# Logs
+logs/
+*.log
+
+# ReSharper
+_ReSharper*/
+*.sln.docstates
+
+# NuGet
+*.nupkg
+packages/
+
+# Local development environment files
+.env
+.env.local
+
+# IDE - JetBrains Rider
+.idea/
+*.sln.iml
+
+# Visual Studio 2017/2019/2022
+.vs/
+.vsconfig
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
