@@ -24,7 +24,7 @@ stages:
               packageType: 'sdk'
               version: '8.x' # Use your .NET version
 
-          - script: dotnet build edusync-backend/EdySyncProject.sln --configuration $(buildConfiguration)
+          - script: dotnet build EdySyncProject.sln --configuration $(buildConfiguration)
             displayName: 'Build Solution'
 
           - script: dotnet publish EdySyncProject/EdySyncProject.csproj --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)
