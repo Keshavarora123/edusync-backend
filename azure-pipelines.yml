@@ -50,7 +50,7 @@ stages:
                 - task: AzureWebApp@1
                   displayName: 'Deploy to Azure App Service'
                   inputs:
-                    azureSubscription: 'Azure for Students' # Your service connection name
+                    azureSubscription: 'githunconnection' # Your service connection name
                     appType: 'webApp'
                     appName: 'keshavserver'      # Replace with your App Service name
                     package: '$(Pipeline.Workspace)/backend'
